@@ -2,6 +2,20 @@
 
 Minesweeper is a classic puzzle game where players strategically uncover cells on a grid, avoiding hidden mines, using clues provided by adjacent numbers.
 
+## Rules
+
+1. The game is played on a grid of cells, where each cell can either be empty or contain a mine.
+2. The objective of the game is to uncover all the cells that do not contain mines.
+3. At the beginning of the game, the player is presented with a grid of covered cells.
+4. The player can choose any cell to uncover.
+5. If the chosen cell contains a mine, the game is over, and the player loses.
+6. If the chosen cell does not contain a mine, it will reveal a number indicating the number of neighboring cells that contain mines.
+7. Using the numbers as clues, the player must strategically uncover cells to avoid mines and uncover all safe cells.
+8. If a cell with no neighboring mines is uncovered, all neighboring cells will automatically be uncovered recursively.
+9. The game is won when all non-mine cells are uncovered.
+10. The player can mark cells they suspect contain mines with a flag or question mark to help with their strategy.
+11. The number of mines and the size of the grid can be adjusted to increase or decrease the difficulty of the game.
+
 ## Features
 
 - Dynamic grid size: Choose from different difficulty levels: beginner, intermediate, and advanced.
